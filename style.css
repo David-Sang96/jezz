@@ -30,6 +30,7 @@ body {
 #neon-heart {
   width: 200px;
   height: 180px;
+  border-radius: 10px;
   position: relative;
   animation: glowing 2s infinite;
 }
