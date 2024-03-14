@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anniversary</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="heart-container">
+      <div id="neon-heart"></div>
+      <div id="heart-text">Ko & Chit</div>
+    </div>
+    <div class="Light">
+      <div id="clock">
+        <span class="time-number">Days</span>d
+        <span class="time-number">Hours</span>h
+        <span class="time-number">Minutes</span>m
+        <span class="time-number">Seconds</span>s
+      </div>
+    </div>
+
+    <div class="gif-container">
+      <img
+        src="https://steamuserimages-a.akamaihd.net/ugc/1834669014194993065/DADB3575B71B6DC3F4B5D0B06918435590AE531A/?imw=128&imh=128&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true"
+        alt="Your GIF"
+      />
+    </div>
+
+    <div class="snowflake">
+      <img src="https://shorturl.at/behyC" alt="Snowflake" />
+    </div>
+    <div class="snowflake">
+      <img src="https://shorturl.at/goxN7" alt="Snowflake" />
+    </div>
+    <div class="snowflake">
+      <img src="https://shorturl.at/bhtHU" alt="Snowflake" />
+    </div>
+    <div class="snowflake">
+      <img src="https://shorturl.at/vW056" alt="Snowflake" />
+    </div>
+    <div class="snowflake">
+      <img src="https://shorturl.at/behyC" alt="Snowflake" />
+    </div>
+    <div class="snowflake">
+      <img src="https://shorturl.at/goxN7" alt="Snowflake" />
+    </div>
+    <div class="snowflake">
+      <img src="https://shorturl.at/bhtHU" alt="Snowflake" />
+    </div>
+    <div class="snowflake">
+      <img src="https://shorturl.at/behyC" alt="Snowflake" />
+    </div>
+    <div class="snowflake">
+      <img src="https://shorturl.at/goxN7" alt="Snowflake" />
+    </div>
+    <script>
+      document.getElementById(
+        "clock"
+      ).innerHTML = `<span class="time-number">2</span>yrs 
+        <span class="time-number"> and</span>
+              <span class="time-number"> 6</span>mths
+              <span class="time-number"> anni</span>        
+             `;
+      setInterval(updateClock, 1000);
+      updateClock();
+    </script>
+  </body>
+</html>
